@@ -1,0 +1,41 @@
+# For cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# For Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+cscope.out
+
+# For C
+*.o
+emudbg
+libx64cpu.*
+libenvwin.*
+libenvironment.*
+linload
+primes
+primes_vm
+dbg
+pedumper
+test[0-9][0-9]
+
+# Valgrind
+valgrind.log
+
+# For Swig
+wrappers/cpu.pm
+wrappers/libcpu.so
+wrappers/cpu_wrap.c
+wrappers/env.pm
+wrappers/libenv.so
+wrappers/env_wrap.cxx
+
